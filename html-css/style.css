@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+  /* width: 100%; */
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.a-button {
+  /* display: inline-block; */
+  width: 25%;
+  background-color: aqua;
+  margin: 10px;
+  padding: 30px;
+}
+
+/* Sign in to your account */
+
+.section {
+  background-color: #ccc;
+}
+.section-headline {
+}
+.form-table {
+  width: 400px;
+}
+.form-table table {
+  width: 100%;
+}
+
+.form-table th,
+.form-table td {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-table th {
+  font-weight: bold;
+  text-align: left;
+}
+
+.input {
+  height: 30px;
+  padding-left: 10px;
+}
+
+.form-button {
+}
+.button-submition {
+}
+
+.login-form {
+}
+.sign-up {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
