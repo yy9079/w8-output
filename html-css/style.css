@@ -19,9 +19,22 @@ body {
 }
 
 /* Sign in to your account */
+/* ウェルカムページ */
+.welcome {
+  padding: 30px;
+  background-color: #1f2f54;
+  color: #eee;
+}
+.text-welcome {
+}
+.tewt-signup {
+}
 
+/* 入力欄 */
 .section {
-  background-color: #ccc;
+  /* background-color: #ccc; */
+}
+section-signup {
 }
 .section-headline {
 }
@@ -31,30 +44,38 @@ body {
 .form-table table {
   width: 100%;
 }
-
 .form-table th,
 .form-table td {
   display: flex;
   flex-direction: column;
 }
-
 .form-table th {
   font-weight: bold;
   text-align: left;
 }
-
+.form-table td {
+  border-radius: 50%;
+}
 .input {
   height: 30px;
   padding-left: 10px;
+  border-radius: 10px;
+  border-color: #1f2f54;
 }
-
+/* サインインボタン */
 .form-button {
+  display: flex;
+  justify-content: center;
 }
-.button-submition {
+.sign-in {
+  width: 200px;
+  background-color: #1f2f54;
+  color: #eee;
 }
 
 .login-form {
 }
+/* サインアップリンクy */
 .sign-up {
   text-decoration: none;
   color: blue;
