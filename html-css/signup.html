@@ -14,6 +14,38 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 id="#h1">Sign Up</h1>
+    <section class="section section-signup section-signin">
+      <h2 class="sign-headline">Sign up</h2>
+      <form class="form-table" action="">
+        <table>
+          <tr>
+            <th>
+              <label for="name"> Name </label>
+            </th>
+            <td>
+              <input class="input signUp" type="text" id="name" />
+            </td>
+          </tr>
+          <tr>
+            <th>Your email</th>
+            <td>
+              <input class="input signUp" type="email" id="input-email" />
+            </td>
+          </tr>
+          <tr>
+            <th>Password</th>
+            <td>
+              <input class="input signUp" type="password" id="input-password" />
+            </td>
+          </tr>
+        </table>
+      </form>
+      <div class="form-button">
+        <button class="button" type="submit" onclick="saveAndLoad()">
+          Sign up
+        </button>
+      </div>
+    </section>
+    <script src="./app.js"></script>
   </body>
 </html>
