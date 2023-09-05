@@ -6,8 +6,12 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./index.html" />
@@ -24,6 +28,28 @@
             </th>
             <td>
               <input class="input signUp" type="text" id="name" />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="birthday"> Birthday </label>
+            </th>
+            <td>
+              <input class="input signUp" type="date" id="birthday" />
+            </td>
+          </tr>
+          <tr>
+            <th>Gender</th>
+            <td class="gebder">
+              <label class="radio">
+                <input type="radio" name="gender" value="male" />Male
+              </label>
+              <label class="radio">
+                <input type="radio" name="gender" value="female" />Female
+              </label>
+              <label class="radio">
+                <input type="radio" name="gender" value="other" />Other
+              </label>
             </td>
           </tr>
           <tr>
@@ -46,6 +72,7 @@
         </button>
       </div>
     </section>
-    <script src="./app.js"></script>
+    <!-- <script src="./app.js"></script> -->
+    <!-- <script src="./datebase.js"></script> -->
   </body>
 </html>
