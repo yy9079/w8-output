@@ -6,16 +6,6 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
-label {
-  color: #336699;
-}
-/* ラベル要素を横並びに */
-.radio {
-  display: flex;
-  align-items: center; /* ラベルを垂直方向に中央揃え */
-  margin-right: 10px;
-}
-
 .button-wrapper {
   display: flex;
   justify-content: space-between;
@@ -87,6 +77,20 @@ label {
   margin-bottom: 10px;
 }
 
+/* 性別の選択 */
+
+/* ラベル要素を横並びに */
+
+.gender label {
+  margin-right: 20px; /* ラジオボタン間の間隔を調整 */
+  /* margin-top: 30px; */
+}
+
+.radio {
+  color: #336699;
+  /* padding-top: 10px; */
+}
+
 .input {
   height: 30px;
   padding-left: 15px;
@@ -102,8 +106,6 @@ input:focus {
   outline: none;
   border-color: #336699;
   background-color: #eae3f7;
-
-  /* その他のスタイリングを追加 */
 }
 
 /* アクティブクラス */
